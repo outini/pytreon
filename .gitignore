@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Sphinx documentation
+.buildinfo
+docs/_build/
+
+# gh_pages workdir for parallel checkout
+# created using the following cmd from the repo root:
+#   mkdir docs/gh_pages
+#   sh /usr/share/doc/git/contrib/workdir/git-new-workdir . docs/gh_pages/html
+#
+# Building the docs (from the docs dir):
+#   make html && make man
+#   rsync -nacv --delete --exclude '.git*' \
+#                        --exclude '.buildinfo' \
+#                        --exclude '.nojekyll' _build/html/ gh_pages/html/
+docs/gh_pages/
+
+# Vim swap files
+.*.swp
+
+# PyCharm files
+.idea
