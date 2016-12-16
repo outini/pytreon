@@ -1,0 +1,8 @@
+[read_backend]
+type = plugins.dummy_read_backend
+
+[write_backend]
+type = plugins.dummy_write_backend
+
+[info_backend]
+type = plugins.dummy_info_backend
