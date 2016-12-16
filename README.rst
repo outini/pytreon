@@ -1,4 +1,4 @@
-pytreon - Centreon control python module
+pytreon - Monitoring control python module
 ========================================
 
 * *Author:* Denis 'jawa' Pompilio <denis.pompilio@gmail.com>
@@ -8,11 +8,13 @@ pytreon - Centreon control python module
 A full content documentation, is online at http://outini.github.io/pytreon/.
 
 The pytreon module makes it easy to control and configure your monitored
-hosts and services using the centreon API and database. This framework is
-provided for automation and monitoring developments.
+hosts and services using provided API, CLI and database. This framework is
+provided for monitoring automation and supports several monitoring systems.
 
-This module has been in development for a long time and supports Centreon in
-version 2.3.3. Support for latest versions is being implemented.
+Supported monitoring systems:
+
+  * Centreon *(2.3.3)*
+  * Icinga2 *(2.5.4)*
 
 Installation
 ------------
@@ -27,10 +29,10 @@ Requirements
 
 This module actually support the following Python versions:
 
-  * *Python 2.6.6*
   * *Python 2.7*
+  * *Python 3.4*
 
-**Used Python third party modules:**
+**Used Python optional third party modules:**
 
   * **MySQLdb** *(https://pypi.python.org/pypi/MySQL-python/1.2.4)*
 
